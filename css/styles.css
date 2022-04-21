@@ -1,0 +1,119 @@
+.site-container {
+    display: grid;
+    grid-template-rows: 2fr 4fr 2fr;
+    font-family: 'Oswald';
+}
+
+.nav-item {
+    margin: 0 auto;
+}
+
+.nav-link {
+    color:#FFFDFF!important;
+    font-size: 2rem;
+    transition: all 350ms ease;
+}
+
+.navbar {
+    background-color: #00559F;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bg-custom {
+    background-color: #00559F;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 350ms ease;
+}
+
+.nav-item a:hover, .nav-item a:focus {
+    box-shadow: 5px 5px #AFBD20, 6px 6px #AFBD20, 7px 7px #AFBD20;
+    transform: translateY(-3px);
+}
+
+.navbar-brand:hover, .navbar-brand:focus {
+    box-shadow: 5px 5px #AFBD20, 6px 6px #AFBD20, 7px 7px #AFBD20;
+    transform: translateY(-3px);
+}
+
+.logo {
+    max-width: 120px;
+    max-height: 120px;
+    border-radius: 100px;
+    margin-left: 1rem;
+}
+
+.dropdown-item {
+    box-shadow: none !important;
+}
+
+.footer-row {
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00559F;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.item {
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 24px;
+    font-weight: bold;
+    color:#FFFFFF;
+}
+
+.footer-icons {
+    display: flex;
+}
+
+.social-icon {
+    max-width: 172px;
+    max-height: 71px;
+    color: black;
+    transition: all 350ms ease;
+}
+
+.social-icon:hover, .social-icon:focus {
+    transform: scale(1.1);
+}
+
+.footer-button {
+    background-color: #AFBD20;
+    color: #FFFDFF;
+    border-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 25px;
+    width: 140px;
+    height: 40px;
+    transition: all 350ms ease;
+    font-weight: bold;
+}
+
+.footer-button:hover, .footer-button:focus {
+    transform: scale(1.1);
+    background-color: #68BBE3;
+}
+
+.page-header {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        display: none;
+        visibility: hidden;
+    }
+}
